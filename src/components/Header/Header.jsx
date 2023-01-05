@@ -10,6 +10,7 @@ function SideBar({ isOpen, handleClick }) {
       <div
         className="close absolute top-7 left-7 cursor-pointer"
         onClick={handleClick}
+title="close"
       >
         <span className="block w-[25px] h-[3px] bg-[#333] rounded-sm rotate-45 origin-[40%]"></span>
         <span className="block w-[25px] h-[3px] bg-[#333] rounded-sm -rotate-45 origin-[40%]"></span>
