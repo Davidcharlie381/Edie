@@ -51,12 +51,12 @@ function Works() {
         />
       </div>
       <div className="see-more container md:text-right md:-ml-[25px] md:-mt-[55px]">
-        <span className="text-[#2D9CDB]">
+        <a href="#" className="text-[#2D9CDB]">
           see more{" "}
           <span className="material-symbols-sharp text-[#2D9CDB] align-middle">
             trending_flat
           </span>
-        </span>
+        </a>
       </div>
     </section>
   );
