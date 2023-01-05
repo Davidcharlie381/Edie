@@ -10,7 +10,7 @@ function SideBar({ isOpen, handleClick }) {
       <div
         className="close absolute top-7 left-7 cursor-pointer"
         onClick={handleClick}
-title="close"
+title="Close"
       >
         <span className="block w-[25px] h-[3px] bg-[#333] rounded-sm rotate-45 origin-[40%]"></span>
         <span className="block w-[25px] h-[3px] bg-[#333] rounded-sm -rotate-45 origin-[40%]"></span>
@@ -57,7 +57,7 @@ function Header() {
           <h2 className="logo text-2xl font-extrabold">Edie</h2>
         </nav>
         <ul
-          className="menu md:hidden grid place-content-center gap-[5px]"
+          className="menu cursor-pointer md:hidden grid place-content-center gap-[5px]"
           title="Menu"
           onClick={handleClick}
         >
