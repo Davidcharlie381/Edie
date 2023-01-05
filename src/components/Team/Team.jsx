@@ -10,16 +10,19 @@ function Gallery() {
         src={person3}
         alt=""
         className="rounded-3xl block absolute h-[155px] w-[155px] lg:h-[260px] lg:w-[260px] top-[60px] md:top-24 left-0 md:left-[25px]"
+        loading="lazy"
       />
       <img
         src={person1}
         alt=""
         className="rounded-3xl block absolute h-[120px] w-[145px] lg:h-[230px] lg:w-[240px] right-5"
+        loading="lazy"
       />
       <img
         src={person2}
         alt=""
         className="rounded-3xl block absolute h-[170px] w-[165px] lg:h-[250px] lg:w-[260px] bottom-0 right-0"
+        loading="lazy"
       />
     </div>
   );

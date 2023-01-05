@@ -13,6 +13,7 @@ function Clients() {
           src={person4}
           alt="Happy client"
           className="h-12 w-12 rounded-md"
+          loading="lazy"
         />
         <div className="details-name">
           <h4 className="leading-9 text-[18px] tracking-wider font-[500]">

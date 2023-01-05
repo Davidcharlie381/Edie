@@ -10,7 +10,7 @@ function Work({ category, title, image }) {
       className={`work mt-8 md:even:-mt-[25px] mx-auto grid place-content-center`}
     >
       <div className="work-image overflow-hidden h-[350px] md:h-[300px] md:w-[300px] w-[350px] mx-auto">
-        <img src={image} alt={title} className="rounded-2xl h-full w-full" />
+        <img src={image} alt={title} className="rounded-2xl h-full w-full" loading="lazy"/>
       </div>
       <span className="block text-[#828282] text-[12px] tracking-wide py-2">
         {category}

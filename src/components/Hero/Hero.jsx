@@ -19,7 +19,7 @@ function Hero() {
         </h1>
       </div>
       <div className="container h-[160px] md:h-[245px] overflow-hidden">
-        <img src={heroImage} alt="" className="h-full w-full rounded-[20px]" />
+        <img src={heroImage} alt="" className="h-full w-full rounded-[20px]" loading="lazy"/>
       </div>
       <div className="container innner">
         <h1 className="leading-9 text-[24px] tracking-wider font-[500] max-w-[192px]">
