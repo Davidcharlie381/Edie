@@ -67,7 +67,7 @@ function Footer({ isOpen, handleClick }) {
           </div>
         </div>
         <p className="text-white text-center text-sm mt-24">
-          created by <a href='twitter.com/davidcharlie371' target='_blank' className='cursor-pointer'>davidcharlie</a> - devChallenges.io
+          created by <a href='https://twitter.com/davidcharlie371' target='_blank' className='cursor-pointer'>davidcharlie</a> - devChallenges.io
         </p>
       </div>
     </footer>
