@@ -6,7 +6,6 @@ import Works from "./components/Works/Works";
 import Team from "./components/Team/Team";
 import Clients from "./components/Clients/Clients";
 import Footer from "./components/Footer/Footer";
-import "./App.css";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
