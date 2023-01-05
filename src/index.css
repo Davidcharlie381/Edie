@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-['Poppins'] text-[#333] m-0 p-0 box-border;
+}
+
+.container {
+  @apply max-w-[88%] mx-auto py-4 xl:max-w-[80em];
+}
+
+.container.innner {
+  @apply max-w-[80%] md:max-w-[65%];
+}
+
+.container.inner {
+  @apply max-w-[75%];
+}
+
+.menu li {
+  @apply w-[25px] h-[3px] bg-black rounded-md;
+}
+
+header .menu-large li {
+  @apply font-normal grid place-content-center hover:font-semibold w-[110px] transition-[font-weight] duration-500;
+}
+
+.sidebar li {
+  @apply font-normal hover:font-semibold transition-[font-weight] duration-500;
+}
+
+.footer li a {
+  @apply text-white;
+}
+
+.socials-icon {
+  @apply h-5 w-5;
+}
